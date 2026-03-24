@@ -6,7 +6,7 @@ interface Props {
 	goal: Goal;
 }
 
-const Goal = ({ goal }: Props) => {
+const GoalRow = ({ goal }: Props) => {
 	return (
 		<>
 			<div className="grid grid-cols-4 gap-4">
@@ -30,4 +30,4 @@ const Goal = ({ goal }: Props) => {
 	);
 };
 
-export default Goal;
+export default GoalRow;

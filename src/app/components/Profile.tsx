@@ -1,9 +1,8 @@
-import React, { ChangeEvent, useState } from "react";
+import React, { useState } from "react";
 import { Edit, Add } from "@mui/icons-material";
 
 import {
 	Avatar,
-	Button,
 	FormControl,
 	InputLabel,
 	MenuItem,
@@ -39,20 +38,21 @@ const Profile = ({ customer, reminders, customerLogs }: Props) => {
 	const lastInitial = lastName.charAt(0);
 
 	const addNewOptions = ["Reminder", "Activity"];
-	const updateProfileOptions = ["Customer Properties", "Goals"];
+	const updateProfileOptions = ["Properties", "Goals"];
 
 	const header = (
-		<div className="flex flex-col gap-4 p-4">
-			<Avatar sx={{ bgcolor, color, fontSize, width: 72, height: 72 }}>
-				{firstInitial}
-				{lastInitial}
-			</Avatar>
-			<div className="flex justify-between w-full">
+		<div className="grid grid-cols-2 gap-4 p-4">
+			<div className="flex flex-col justify-end gap-2">
+				<Avatar sx={{ bgcolor, color, fontSize, width: 72, height: 72 }}>
+					{firstInitial}
+					{lastInitial}
+				</Avatar>
 				<h1 className="font-bold text-4xl">
 					{firstName} {lastName}
 				</h1>
-
-				<div className="flex gap-4">
+			</div>
+			<div className="flex flex-col justify-between w-full">
+				<div className="grid grid-cols-2 grid-rows-2 gap-4">
 					<FormControl>
 						<InputLabel sx={{ color }}>Update</InputLabel>
 						<Select

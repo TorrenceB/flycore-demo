@@ -5,10 +5,11 @@
 - Dislaimer: This is dummy data
 - Did as much as I could with the time I had
 - Full disclaimer...
+- Asked about AI skills - generated all aviation data with Claude. I provided a type definition and example of the data that was being used.
 
 ### Todos
 
-- [] Create Repo
-- [x] Add section for Customer Goals
-- [] Set up hosting config
-- [] Create subdomain
+[x] Create Repo
+[x] Add section for Customer Goals
+[ ] Set up hosting config
+[ ] Create subdomain

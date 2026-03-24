@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Activity = ({ activity }: Props) => {
-	const [sort, setSort] = useState("No Sort Applied");
+	const [sort, setSort] = useState("None");
 	const [filter, setFilter] = useState("All");
 
 	const filters = [
@@ -24,7 +24,7 @@ const Activity = ({ activity }: Props) => {
 	];
 
 	const sortables = [
-		"No Sort Applied",
+		"None",
 		"Date (Most Recent)",
 		"Date (Oldest)",
 		"Instructor",
@@ -119,7 +119,7 @@ const Activity = ({ activity }: Props) => {
 				<TextField
 					select
 					label="Sort"
-					defaultValue="No Sort Applied"
+					defaultValue="None"
 					style={{ width: "15rem" }}
 					onChange={(event) => handleSort(event.target.value)}
 				>
