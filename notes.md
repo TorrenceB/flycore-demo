@@ -11,5 +11,5 @@
 
 [x] Create Repo
 [x] Add section for Customer Goals
-[ ] Set up hosting config
-[ ] Create subdomain
+[x] Set up hosting config
+[x] Create subdomain
