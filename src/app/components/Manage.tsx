@@ -1,7 +1,12 @@
 import React from "react";
 
 import { Button } from "@mui/material";
-import { Notifications, Info, EmojiEvents, Person } from "@mui/icons-material";
+import {
+	NotificationsOutlined,
+	InfoOutlined,
+	EmojiEventsOutlined,
+	PersonOutlined,
+} from "@mui/icons-material";
 
 const Manage = () => {
 	const bgcolor = "#f3eb5d";
@@ -15,22 +20,22 @@ const Manage = () => {
 		{
 			id: "1",
 			label: "Reminders",
-			icon: <Notifications />,
+			icon: <NotificationsOutlined />,
 		},
 		{
 			id: "2",
 			label: "Properties",
-			icon: <Person />,
+			icon: <PersonOutlined />,
 		},
 		{
 			id: "3",
 			label: "Goals",
-			icon: <EmojiEvents />,
+			icon: <EmojiEventsOutlined />,
 		},
 		{
 			id: "4",
 			label: "Activities",
-			icon: <Info />,
+			icon: <InfoOutlined />,
 		},
 	];
 
