@@ -9,10 +9,10 @@
 
 ### Todos
 
-[x] Create Repo
-[x] Add section for Customer Goals
-[x] Set up hosting config
-[x] Create subdomain
+- [x] Create Repo
+- [x] Add section for Customer Goals
+- [x] Set up hosting config
+- [x] Create subdomain
 
 ### Redesign
 
